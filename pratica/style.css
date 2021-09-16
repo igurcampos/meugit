@@ -1,0 +1,40 @@
+* {margin: 0;}
+body {
+    min-height: 100vh;
+    
+}
+
+header {
+    background: blue;
+    color: white;
+    font-size: 5rem;
+    height: 4rem;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+img {
+    width: 30%;
+    height: auto;
+}
+.galery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .8rem;
+    justify-content: center;
+    margin-bottom: 1%;
+    margin-top: 1%;
+}
+footer {
+    margin-top: auto;
+    background: blue;
+    color: white;
+    height: 4rem;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
